@@ -1,0 +1,191 @@
+.company .banner {
+    height: 400px;
+    width: 100%;
+    background-color: red;
+    margin-bottom: 100px;
+}
+
+.company {
+    margin: 0;
+}
+
+.company .banner .img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.company .banner .img::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.606);
+    width: 100%;
+    height: 100%;
+}
+
+.company .banner .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.company .banner .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    width: 80%;
+    color: white;
+    font-weight: 650;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.company .banner .text h2 {
+    font-size: 40px;
+}
+
+.company .banner .text li {
+    font-size: 25px;
+}
+
+.company .banner .text li:nth-child(2) {
+    color: white;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    color: white !important;
+}
+
+
+.company .about {
+    margin-bottom: 100px;
+}
+
+.company .about_text {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.company .about_text p {
+    font-weight: 550;
+}
+
+.company .about .img {
+    position: relative;
+    border: 1px solid red;
+}
+
+.company .about .img img {
+    width: 100%;
+    height: 100%;
+}
+
+.company .about .img div {
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+    text-align: center;
+    background-color: red;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: white;
+    font-weight: 650;
+    animation-name: div;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes div {
+    0% {
+        right: 0;
+    }
+
+    100% {
+        right: 10%;
+        color: black;
+        background-color: white;
+    }
+}
+
+.company .about .img span {
+    font-size: 20px;
+}
+
+.company .quality {
+    background-image: url("https://i0.wp.com/ritexmetal.com/wp-content/uploads/2022/11/5d311f61a310d8304551b47e.jpeg?fit=900%2C586&ssl=1");
+    margin-bottom: 100px;
+    padding: 100px 100px;
+    color: white;
+    position: relative;
+    font-weight: 750;
+}
+.company .quality::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.266);
+}
+
+.company .quality .quality_text {
+    background-color: red;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: start;
+}
+
+.company .quality .quality_text .icon {
+    position: relative;
+    font-size: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 20px;
+}
+
+.company .owner{
+    margin-bottom: 100px;
+}
+.company .owner .img img{
+    width: 100%;
+}
+.company .owner .img h5,.company .owner .img h6{
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
+@media (max-width : 767.98px) {
+    .company .banner .text h2 {
+        font-size: 30px;
+    }
+    
+    .company .banner .text li {
+        font-size: 20px;
+    }
+}
+@media (max-width : 575.98px) {
+    .company .banner .text h2 {
+        font-size: 20px;
+    }
+    
+    .company .banner .text li {
+        font-size: 16px;
+    }
+    .company .quality .col-12{
+        margin-bottom: 20px;
+    }
+    .company .quality{
+        margin-bottom: 50px;
+    }
+}

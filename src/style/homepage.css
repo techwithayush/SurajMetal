@@ -1,0 +1,981 @@
+.homepage {
+    overflow-x: hidden;
+}
+
+.btn {
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+    text-transform: uppercase;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+    color: #fff;
+    font-weight: 650;
+    font-size: 16px;
+    background-color: #222;
+    padding: 15px 40px;
+    margin: 0 auto;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.20);
+}
+
+.btn::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 490%;
+    width: 140%;
+    background: #78c7d2;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+    transform: translateX(-98%) translateY(-25%) rotate(45deg);
+}
+
+.btn:hover:after {
+    -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+    transform: translateX(-9%) translateY(-25%) rotate(45deg);
+}
+
+.homepage .homepage_image {
+    height: 85vh;
+    width: 100%;
+    position: relative;
+}
+
+.homepage .homepage_image div {
+    width: 100%;
+    height: 100%;
+}
+
+.homepage .homepage_image .img {
+    width: 100%;
+    height: 100%;
+    animation: img;
+    object-fit: cover;
+    animation-duration: 6.2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes img {
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+.homepage .homepage_image::after {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.56);
+    opacity: 0.6;
+    top: 0;
+    left: 0;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+
+.homepage .homepage_image .homepage_text {
+    position: absolute;
+    font-weight: 650;
+    top: 20%;
+    left: 5%;
+    z-index: 2;
+    color: white;
+    padding: 20px 30px;
+    height: max-content;
+    max-width: 40%;
+
+}
+
+.homepage .homepage_image .homepage_text h4 {
+    font-size: 18px;
+}
+
+.homepage .homepage_image .homepage_text h2 {
+    font-size: 38px;
+}
+
+.homepage .homepage_image .homepage_text p {
+    font-size: 20px;
+}
+
+
+
+.homepage .homepage_bottom_card {
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 50px;
+    width: 60% !important;
+    height: max-content !important;
+    z-index: 2;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.189);
+    padding: 20px 30px;
+    background-color: white;
+}
+
+.homepage .homepage_bottom_card>div>div {
+    display: flex;
+    align-items: center;
+    padding-left: 6%;
+    font-weight: 650;
+}
+
+.homepage .homepage_bottom_card>div>div h5 {
+    font-size: 17px;
+}
+
+.homepage .who_we_are {
+    margin-top: 70px;
+    text-align: justify;
+}
+
+.homepage .who_we_are h5 {
+    color: red;
+    font-weight: 650;
+    font-size: 14px;
+}
+
+.homepage .who_we_are h2 {
+    margin-top: 15px;
+    font-weight: 650;
+    color: rgba(28, 28, 255, 0.84);
+    font-size: 40px;
+}
+
+.homepage .who_we_are h6 {
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.homepage .who_we_are p {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.homepage .who_we_are .rating h1 {
+    color: green;
+}
+
+.homepage .who_we_are .rating span {
+    color: red;
+}
+
+.homepage .who_we_are .rating h4 {
+    font-weight: 650;
+    margin-top: 10px;
+}
+
+.homepage .who_we_are .rating p {
+    color: blue;
+    font-weight: 350;
+}
+
+.homepage .who_we_are .img_div {
+    width: 100%;
+    padding: 0;
+    position: relative;
+}
+
+.homepage .who_we_are .img_div>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.homepage .who_we_are .img_div h3 {
+    position: absolute;
+    text-align: center;
+    padding: 10px 20px;
+    top: 10%;
+    transform: translate(-10%, -10%);
+    left: 10%;
+    background-color: red;
+    height: max-content;
+    width: max-content;
+    color: white;
+    border-radius: 10px;
+    font-weight: 650;
+}
+
+
+.about_us {
+    height: 600px;
+    width: 100%;
+    background-color: red;
+    background-image: url('https://i0.wp.com/ritexmetal.com/wp-content/uploads/2022/11/stainless-steel-and-pipes-.jpg?fit=1000%2C500&ssl=1');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    position: relative;
+}
+
+.about_us::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.3;
+    width: 100%;
+    height: 600px;
+}
+
+.about_us .about_us_text {
+    color: white;
+    position: relative;
+    font-weight: 650;
+    max-width: 45%;
+    margin: 0;
+    margin-left: 80px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.about_us .about_us_text h2 {
+    font-size: 50px;
+}
+
+.about_us .about_us_bottom {
+    position: absolute;
+    bottom: -13%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.322);
+    width: 90%;
+    border-radius: 10px;
+    height: max-content;
+    padding: 30px;
+    line-height: 20px;
+}
+
+
+.what_we_offer {
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.what_we_offer .product_images>div>div {
+    position: relative;
+
+}
+
+.what_we_offer .product_images .col-xl-3 {
+    margin-bottom: 120px;
+}
+
+:root {
+    --surface-color: #fff;
+    --curve: 40;
+}
+
+
+.card {
+    position: relative;
+    display: block;
+    height: 130%;
+    border-radius: calc(var(--curve) * 1px);
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.card__image {
+    width: 100%;
+    height: 130%;
+}
+
+.card__overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    border-radius: calc(var(--curve) * 1px);
+    background-color: var(--surface-color);
+    transform: translateY(100%);
+    transition: .2s ease-in-out;
+}
+
+.card:hover .card__overlay {
+    transform: translateY(0);
+}
+
+.card__header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    padding: 2em;
+    border-radius: calc(var(--curve) * 1px) 0 0 0;
+    background-color: var(--surface-color);
+    transform: translateY(-100%);
+    transition: .2s ease-in-out;
+}
+
+.card__arc {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    bottom: 100%;
+    right: 0;
+    z-index: 1;
+}
+
+.card__arc path {
+    fill: var(--surface-color);
+    d: path("M 40 80 c 22 0 40 -22 40 -40 v 40 Z");
+}
+
+.card:hover .card__header {
+    transform: translateY(0);
+}
+
+
+.card__title {
+    font-size: 1.1em;
+    font-weight: 650;
+    color: #6A515E;
+    margin-bottom: 0;
+}
+
+
+.card__description {
+    padding: 0em 2em;
+    font-weight: 650;
+    color: #ff0080;
+    font-family: "MockFlowFont";
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+
+.card__overlay .card_button {
+    width: 60%;
+    height: 50%;
+    position: relative;
+    left: 50%;
+    font-weight: 650;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    color: white;
+    margin-top: 0;
+    background-color: black;
+}
+
+.card__overlay .card_button:hover {
+    color: white;
+    background-color: red;
+}
+
+
+
+.why_choose_us {
+    margin-bottom: 100px;
+}
+
+.why_choose_us .img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.why_choose_us .img img {
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.229);
+}
+
+.why_choose_us .logo_slider {
+    height: max-content;
+}
+
+.why_choose_us .logo_slider img {
+    width: 150px;
+    aspect-ratio: 3 / 2;
+    object-fit: contain;
+    margin: 5px;
+    height: 100px;
+}
+
+.abilities>div {
+    /* background-color: red; */
+    height: max-content;
+}
+
+
+.custom_card {
+    position: relative;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    border-radius: 20px;
+    text-align: center;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.custom_card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, .5);
+}
+
+.custom_card:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -50%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, .03);
+    pointer-events: none;
+    z-index: 1;
+}
+
+.custom_card .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.percent {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: inset 0 0 50px #000;
+    background: #222;
+    z-index: 1000;
+}
+
+.percent .num {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.percent .num h2 {
+    color: #777;
+    font-weight: 700;
+    font-size: 40px;
+    transition: 0.5s;
+}
+
+.custom_card:hover .percent .num h2 {
+    color: #fff;
+    font-size: 45px;
+}
+
+.percent .num h2 span {
+    color: #777;
+    font-size: 24px;
+    transition: 0.5s;
+}
+
+.custom_card:hover .percent .num h2 span {
+    color: #fff;
+}
+
+.custom_card .text {
+    position: relative;
+    color: #777;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.custom_card:hover .text {
+    color: red;
+}
+
+.abilities svg {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    z-index: 1000;
+}
+
+.abilities svg circle {
+    width: 100%;
+    height: 100%;
+    fill: none;
+    stroke: #191919;
+    stroke-width: 10;
+    stroke-linecap: round;
+    transform: translate(5px, 5px);
+}
+
+.custom_card:nth-child(1) svg circle:nth-child(2) {
+    stroke-dashoffset: calc(440 - (440 * 90) / 100);
+    stroke: #00ff43;
+}
+
+
+.application_page {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.application_page p {
+    width: 65%;
+    margin: auto;
+    margin-top: 20px;
+    font-weight: 450;
+}
+
+.application_page .application_swiper {
+    margin-top: 50px;
+}
+
+.application_page .application_image {
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.application_page .application_image img {
+    width: 100%;
+    object-fit: cover;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.contact_us .img {
+    width: 100%;
+    position: relative;
+}
+
+.contact_us .img img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.contact_us .img::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(145deg, red, rgba(255, 0, 0, 0.715), rgba(0, 0, 255, 0.515), black);
+    opacity: 1;
+}
+
+.contact_us .img_text {
+    position: absolute;
+    font-weight: 650;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    padding: 50px;
+    color: white;
+}
+
+
+
+@media (max-width : 1199.98px) {
+    .homepage .who_we_are h2 {
+        font-size: 28px;
+    }
+
+    .homepage .who_we_are h6 {
+        margin-top: 15px;
+        font-size: 16px;
+    }
+
+    .homepage .who_we_are p {
+        margin-top: 15px;
+        font-size: 13px;
+    }
+
+    .homepage .who_we_are .rating h1 {
+        color: green;
+        font-size: 28px;
+    }
+
+    .homepage .who_we_are .rating span {
+        color: red;
+    }
+
+    .homepage .who_we_are .rating h4 {
+        font-weight: 650;
+        margin-top: 10px;
+        font-size: 20px;
+    }
+
+    .homepage .who_we_are .rating p {
+        color: blue;
+        font-weight: 350;
+        font-size: 12px;
+    }
+
+
+    .what_we_offer .product_images .col-xl-3 {
+        margin-bottom: 120px;
+    }
+
+    .why_choose_us .img img {
+        width: 100%;
+        height: 500px;
+        margin-bottom: 20px;
+        color: rgba(0, 0, 0, 0.229);
+    }
+
+    .why_choose_us .logo_slider img {
+        width: 150px;
+        aspect-ratio: 3 / 2;
+        object-fit: contain;
+        margin: 5px;
+        height: 100px;
+    }
+
+    .why_choose_us h5 {
+        font-size: 16px;
+    }
+
+    .why_choose_us .icon {
+        font-size: 40px !important;
+    }
+
+    .why_choose_us p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width : 991.98px) {
+
+    .homepage .homepage_image .homepage_text {
+        position: absolute;
+        font-weight: 650;
+        top: 20%;
+        left: 0%;
+        z-index: 2;
+        color: white;
+        padding: 20px 30px;
+        height: max-content;
+        max-width: 60%;
+    }
+
+    .homepage .homepage_image .homepage_text h4 {
+        font-size: 18px;
+    }
+
+    .homepage .homepage_image .homepage_text h2 {
+        font-size: 30px;
+    }
+
+    .homepage .homepage_image .homepage_text p {
+        font-size: 18px;
+    }
+
+    .homepage .homepage_bottom_card {
+        border-radius: 10px;
+        margin: auto;
+        margin-top: 50px;
+        width: 90% !important;
+        height: max-content !important;
+        z-index: 2;
+        box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.189);
+        padding: 20px 30px;
+        background-color: white;
+    }
+
+    .about_us .about_us_text {
+        color: white;
+        position: relative;
+        font-weight: 650;
+        max-width: 60%;
+        margin: 0;
+        margin-left: 35px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .about_us .about_us_text h2 {
+        font-size: 35px;
+    }
+
+    .about_us .about_us_bottom {
+        position: absolute;
+        bottom: -13%;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: white;
+        box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.322);
+        width: 90%;
+        border-radius: 10px;
+        height: max-content;
+        padding: 30px;
+        line-height: 20px;
+    }
+
+    .about_us .about_us_bottom h2 {
+        font-size: 26px;
+    }
+
+    .about_us .about_us_bottom p {
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width : 767.98px) {
+
+    .homepage_bottom_card h5 {
+        font-size: 13px !important;
+    }
+
+
+    .homepage .who_we_are h2 {
+        font-size: 23px;
+    }
+
+    .homepage .who_we_are h6 {
+        margin-top: 15px;
+        font-size: 14px;
+    }
+    .homepage .who_we_are h5{
+        text-align: center;
+    }
+
+    .homepage .who_we_are p {
+        margin-top: 15px;
+        font-size: 12px;
+    }
+
+    .homepage .who_we_are .rating h1 {
+        color: green;
+        font-size: 28px;
+    }
+    .homepage .who_we_are .rating h4 {
+        font-weight: 650;
+        margin-top: 10px;
+        font-size: 18px;
+    }
+
+    .homepage .who_we_are .rating p {
+        color: blue;
+        font-weight: 350;
+        font-size: 14px;
+    }
+
+
+
+    .about_us .about_us_text {
+        color: white;
+        position: relative;
+        font-weight: 650;
+        max-width: 80%;
+        margin: 0;
+        margin-left: 35px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .about_us .about_us_text h2 {
+        font-size: 30px;
+    }
+
+    .about_us .about_us_bottom {
+        position: absolute;
+        bottom: -13%;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: white;
+        box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.322);
+        width: 90%;
+        border-radius: 10px;
+        height: max-content;
+        padding: 20px 30px;
+        line-height: 20px;
+    }
+
+    .about_us .about_us_bottom h2 {
+        font-size: 20px;
+    }
+
+    .about_us .about_us_bottom p {
+        font-size: 12px;
+    }
+
+    .what_we_offer h6{
+        text-align: center;
+    }
+    .what_we_offer h2{
+        font-size: 30px !important;
+    }
+    .what_we_offer .col-6:nth-child(2) p{
+        font-size: 14px;
+    }
+
+
+}
+
+
+
+@media (max-width : 575.98px) {
+
+    .homepage .homepage_image .homepage_text {
+        position: absolute;
+        font-weight: 650;
+        top: 20%;
+        left: 0%;
+        z-index: 2;
+        color: white;
+        padding: 20px 30px;
+        height: max-content;
+        max-width: 100%;
+    }
+
+    .homepage_bottom_card h5 {
+        font-size: 10px !important;
+    }
+
+
+    /* .homepage .who_we_are h2 {
+        font-size: 23px;
+    }
+
+    .homepage .who_we_are h6 {
+        margin-top: 15px;
+        font-size: 14px;
+    }
+    .homepage .who_we_are h5{
+        text-align: center;
+    }
+
+    .homepage .who_we_are p {
+        margin-top: 15px;
+        font-size: 12px;
+    }
+
+    .homepage .who_we_are .rating h1 {
+        color: green;
+        font-size: 28px;
+    }
+    .homepage .who_we_are .rating h4 {
+        font-weight: 650;
+        margin-top: 10px;
+        font-size: 18px;
+    }
+
+    .homepage .who_we_are .rating p {
+        color: blue;
+        font-weight: 350;
+        font-size: 14px;
+    } */
+
+
+
+    .about_us .about_us_text {
+        color: white;
+        position: relative;
+        font-weight: 650;
+        max-width: 100%;
+        margin: 0;
+        margin-left: 35px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .about_us .about_us_text h2 {
+        font-size: 30px;
+    }
+
+    .about_us .about_us_bottom {
+        position: absolute;
+        bottom: -13%;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: white;
+        box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.322);
+        width: 90%;
+        border-radius: 10px;
+        height: max-content;
+        padding: 20px 30px;
+        line-height: 20px;
+    }
+
+    .about_us .about_us_bottom h2 {
+        font-size: 20px;
+    }
+
+    .about_us .about_us_bottom p {
+        font-size: 10px;
+    }
+
+    .what_we_offer h2{
+        font-size: 30px !important;
+    }
+    .what_we_offer .col-6:nth-child(2) p{
+        font-size: 14px;
+    }
+
+    .what_we_offer .product_images>div>div {
+        position: relative;
+    
+    }
+    
+    .what_we_offer .product_images .col-12 {
+        margin-bottom: 60px !important;
+    }
+    
+    :root {
+        --surface-color: #fff;
+        --curve: 40;
+    }
+    
+    .card {
+        position: relative;
+        display: block;
+        height: 100%;
+        border-radius: calc(var(--curve) * 1px);
+        overflow: hidden;
+        text-decoration: none;
+    }
+
+    .what_we_offer{
+        margin-bottom: 0;
+    }
+    
+    .why_choose_us{
+        margin-bottom: 40px;
+    }
+
+    .abilities .col-12{
+        position: relative;
+        left: 50%;
+        transform: translateX(-25%) !important;
+    }
+
+    .application_page p{
+        width: 100%;
+    }
+}

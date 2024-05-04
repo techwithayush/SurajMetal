@@ -1,0 +1,138 @@
+.certificates .banner {
+    height: 400px;
+    width: 100%;
+    background-color: red;
+    margin-bottom: 100px;
+}
+
+.certificates {
+    margin: 0;
+}
+
+.certificates .banner .img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.certificates .banner .img::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.606);
+    width: 100%;
+    height: 100%;
+}
+
+.certificates .banner .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.certificates .banner .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    width: 80%;
+    color: white;
+    font-weight: 650;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.certificates .banner .text h2 {
+    font-size: 40px;
+}
+
+.certificates .banner .text li {
+    font-size: 25px;
+}
+
+.certificates .banner .text li:nth-child(2) {
+    color: white;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    color: white !important;
+}
+
+
+
+.certificates .certificate_img{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.certificates .certificate_img .img img{
+    width: 100%;
+    height: 100%;
+}
+.certificates .certificate_img .certificates_text{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0 30px;
+}
+.certificates .certificate_img .certificates_text p{
+    font-weight: 550;
+    text-align: justify;
+}
+
+.certificates .cartificate_all{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    background-image: url('https://i0.wp.com/ritexmetal.com/wp-content/uploads/2022/11/photo-1496247749665-49cf5b1022e9.jpg?fit=1000%2C664&ssl=1');
+}
+.certificates .cartificate_all::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.239);
+    height: 100%;
+    width: 100%;
+}
+
+.certificates .cartificate_all .img img{
+    width: 100%;
+    height: 100%;
+}
+.certificates .cartificate_all>div{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+
+
+
+@media (max-width : 767.98px) {
+    .certificates .banner .text h2 {
+        font-size: 30px;
+    }
+    
+    .certificates .banner .text li {
+        font-size: 20px;
+    }
+    .certificates .cartificate_all .img img{
+        width: 100%;
+        height: 120%;
+        margin-bottom: 30px;
+    }
+
+}
+@media (max-width : 575.98px) {
+    .certificates .banner .text h2 {
+        font-size: 20px;
+    }
+    
+    .certificates .banner .text li {
+        font-size: 16px;
+    }
+}
