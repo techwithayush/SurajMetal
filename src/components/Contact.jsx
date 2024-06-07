@@ -35,7 +35,7 @@ function Contact() {
               <div>
                 <h5>Email Address</h5>
                 <h6>info@Surajmetal.com</h6>
-                <h6>Surajmetal@gmail.com</h6>
+                <h6>surajmetal505@gmail.com</h6>
               </div>
             </div>
             <div className='group'>

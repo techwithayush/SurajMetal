@@ -178,7 +178,7 @@ function HomaPage() {
                             </div>
                         </div>
                         <div className='col-12 col-md-6' data-aos='fade-left' data-aos-duration="1000">
-                            <p style={{ textAlign: 'justify' }}>Established in the year 2022, SURAJ METAL  is a notable Supplier, Wholesaler, Importer, Exporter, and Stockist of a massive selection of Stainless Steel, Carbon Steel, Duplex and Super Duplex Steel, and High Nickel alloys Products. Our products comprise Sheets, Plates, Coils, Round Bar, Wire, Wire Mesh, Pipes, Pipe Fittings, Forged Fittings, Pipes & Tubes, Industrial Valves, Industrial Flanges & Fittings, Industrial Fittings, SS Fasteners etc.</p>
+                            <p style={{ textAlign: 'justify' }}>Established in the year 2014, SURAJ METAL  is a notable Supplier, Wholesaler, Importer, Exporter, and Stockist of a massive selection of Stainless Steel, Carbon Steel, Duplex and Super Duplex Steel, and High Nickel alloys Products. Our products comprise Sheets, Plates, Coils, Round Bar, Wire, Wire Mesh, Pipes, Pipe Fittings, Forged Fittings, Pipes & Tubes, Industrial Valves, Industrial Flanges & Fittings, Industrial Fittings, SS Fasteners etc.</p>
                         </div>
                     </div>
                     <div className='row  product_images mt-5'>
