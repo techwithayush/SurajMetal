@@ -1,7 +1,6 @@
 .homepage {
     overflow-x: hidden;
 }
-
 .btn {
     border: none;
     text-align: center;
@@ -11,7 +10,7 @@
     outline: none;
     overflow: hidden;
     position: relative;
-    color: #fff;
+    color: #fff !important;
     font-weight: 650;
     font-size: 16px;
     background-color: #222;

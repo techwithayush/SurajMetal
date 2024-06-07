@@ -28,6 +28,7 @@
 
 .header_two li {
     margin-left: 20px;
+    font-weight: 550;
 }
 .header_two{
     position: sticky !important;
@@ -115,6 +116,14 @@
 .navbar-nav{
     display: flex;
     align-items: center;
+}
+
+
+.header_two .active{
+    background-color: rgb(208, 0, 255);
+    color: white !important;
+    border-radius: 7px;
+    transition: all 0.4s linear;
 }
 
 

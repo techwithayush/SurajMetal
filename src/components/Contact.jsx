@@ -42,14 +42,17 @@ function Contact() {
               <MdAddCall className='con_icon' />
               <div>
                 <h5>Phone Number</h5>
-                <h6>+91-9726645523</h6>
+                <h6>+91-95744 45869</h6>
               </div>
             </div>
             <div className='group'>
               <FaMapMarked className='con_icon' />
               <div className='h6'>
                 <h5>Office address</h5>
-                <p>C-4, Janak Estate, Chakudiya Mahadev Rd, opp. Municipal Garden, Rakhial, Ahmedabad, Gujarat 380023</p>
+                <p>7+8/3 Khambhatwala Estate,
+                  Nr.Shraine Estate, Opp. Jalaram
+                  Estate,Nr. Kewal Kanta Char Rasta,
+                  Rakhiyal, Ahmedabad,Gujarat.</p>
               </div>
             </div>
           </div>

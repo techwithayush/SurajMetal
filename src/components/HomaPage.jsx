@@ -3,6 +3,7 @@ import '../style/homepage.css';
 import { FaTruckMoving, FaStar } from "react-icons/fa6";
 import { IoDiamondSharp } from "react-icons/io5";
 import { RiTeamFill } from "react-icons/ri";
+import { NavLink } from 'react-router-dom'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import 'swiper/css';
@@ -79,10 +80,12 @@ function HomaPage() {
                         </SwiperSlide>
                     </Swiper>
                     <div className='homepage_text' data-aos='fade-down' data-aos-duration="3000">
-                        <h4 className='mb-3'>WELCOME TO SURAJ METAL</h4>
+                        <h4 className='mb-3' style={{fontSize:'28px',fontWeight:'750'}}>WELCOME TO <span style={{color:'red'}}>SURAJ METAL</span></h4>
                         <h2 className='mb-4'>Production from strategy to delivery, on time everytime.</h2>
                         <p className='mb-3'>Quick delivery and fast service as per the customer's requirement.</p>
-                        <button className='btn' type='button'><span style={{ position: 'relative', zIndex: '1' }}>{`Know more ->`}</span></button>
+                        <NavLink  to='/company-profile'>
+                            <button className='btn' type='button'><span style={{ position: 'relative', zIndex: '1' }}>{`Know more ->`}</span></button>
+                        </NavLink>
                     </div>
                 </section>
                 <div className='homepage_bottom_card' data-aos='fade-left' data-aos-duration="1000">
@@ -108,7 +111,7 @@ function HomaPage() {
                         <div className='col-md-5 col-12 ' data-aos='fade-right' data-aos-offset="200" data-aos-duration="1000">
                             <h5>WHO WE ARE</h5>
                             <h2>We Have a culture that inspires Our Clients to work smart, together.</h2>
-                            <h6>Suraj Metal Corporation is one of the Leading Brand name as a Manufacturer, Suppliers, Stockiest and Distributors in Premium Range of Ferrous and Non Ferrous Industrial Raw Materials in Ahmedabad, Gujarat & India.</h6>
+                            <h6>Suraj Metal  is one of the Leading Brand name as a Manufacturer, Suppliers, Stockiest and Distributors in Premium Range of Ferrous and Non Ferrous Industrial Raw Materials in Ahmedabad, Gujarat & India.</h6>
                             <p>We are Dealing in All Types of Industrial Raw Materials such as Sheets, Plates, Coils, Pipes & Tubes, Bars, Wires & Rods, Angles, channels & Flats, Industrial Flanges and Fittings, Industrial Valves, Dairy Valves, Industrial Fittings, Fasteners and Custom Fabrication Services with Stainless Steel & Mild Steel etc.</p>
                             <div className='rating row text-center'>
                                 <div className='col-6'>
@@ -153,7 +156,7 @@ function HomaPage() {
                         <button type='button' className=' btn ps-5 pe-5'><span style={{ position: 'relative', zIndex: '1' }}>About Us</span></button>
                     </div>
                     <div className='about_us_bottom' >
-                        <div className='row' style={{display:'flex',alignItems:'center'}}>
+                        <div className='row' style={{ display: 'flex', alignItems: 'center' }}>
                             <div className='col-4'>
                                 <h2 style={{ fontWeight: '650', color: 'red' }}>We Are Ready To Serve You Differently.</h2>
                             </div>
@@ -167,7 +170,7 @@ function HomaPage() {
                     </div>
                 </section>
                 <section className='what_we_offer container-lg'>
-                    <div className='row' style={{display:'flex',alignItems:'center'}}>
+                    <div className='row' style={{ display: 'flex', alignItems: 'center' }}>
                         <div className='col-12 col-md-6' data-aos='fade-right' data-aos-duration="1000" >
                             <div>
                                 <h6 style={{ color: 'red', fontWeight: '650' }}>WHAT WE OFFER</h6>
@@ -175,7 +178,7 @@ function HomaPage() {
                             </div>
                         </div>
                         <div className='col-12 col-md-6' data-aos='fade-left' data-aos-duration="1000">
-                            <p style={{ textAlign: 'justify' }}>Established in the year 2022, SURAJ METAL CORPORATION is a notable Supplier, Wholesaler, Importer, Exporter, and Stockist of a massive selection of Stainless Steel, Carbon Steel, Duplex and Super Duplex Steel, and High Nickel alloys Products. Our products comprise Sheets, Plates, Coils, Round Bar, Wire, Wire Mesh, Pipes, Pipe Fittings, Forged Fittings, Pipes & Tubes, Industrial Valves, Industrial Flanges & Fittings, Industrial Fittings, SS Fasteners etc.</p>
+                            <p style={{ textAlign: 'justify' }}>Established in the year 2022, SURAJ METAL  is a notable Supplier, Wholesaler, Importer, Exporter, and Stockist of a massive selection of Stainless Steel, Carbon Steel, Duplex and Super Duplex Steel, and High Nickel alloys Products. Our products comprise Sheets, Plates, Coils, Round Bar, Wire, Wire Mesh, Pipes, Pipe Fittings, Forged Fittings, Pipes & Tubes, Industrial Valves, Industrial Flanges & Fittings, Industrial Fittings, SS Fasteners etc.</p>
                         </div>
                     </div>
                     <div className='row  product_images mt-5'>
@@ -522,14 +525,14 @@ function HomaPage() {
                             spaceBetween={10}
                             loop={true}
                             breakpoints={{
-                                576:{
-                                    slidesPerView:2                                  
+                                576: {
+                                    slidesPerView: 2
                                 },
-                                767:{
-                                    slidesPerView:3
+                                767: {
+                                    slidesPerView: 3
                                 },
-                                992:{
-                                    slidesPerView:4
+                                992: {
+                                    slidesPerView: 4
                                 }
                             }}
                             autoplay={

@@ -75,7 +75,7 @@ function Footer() {
                 </div>
                 <hr />
                 <div className='footer_second container-xl'>
-                    <p>Copyright © {new Date().getFullYear()}, All rights reserved. Powered by Suraj Metal Corporation.</p>
+                    <p>Copyright © {new Date().getFullYear()}, All rights reserved. Powered by Suraj Metal .</p>
                     <p>Design & Developed by <Link to='https://www.linkedin.com/in/ayush-namdhar-8ba009216/' target='_blank' className='text-danger'>Ayush Namdhar</Link> </p>
                 </div>
             </div>

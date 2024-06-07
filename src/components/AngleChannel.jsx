@@ -48,7 +48,7 @@ function AngleChannel() {
                             <div className='banner_text'>
                                 <h6 className='text-danger mb-4'>OUR PRODUCTS</h6>
                                 <h2 className='text-primary mb-4'>Angle and Channel & Flat Manufacturer in India</h2>
-                                <p>Suraj Metal Corporation is one of the leading manufacturers of angle, channel and flat. We offer an excellent quality stainless angle bar, alloy steel angle bar, titanium angle bar, nickel alloy angle bar. Stainless steel angle is also called stainless steel channel in the market. <br />We offer our customers a wide range of Angles & Channels widely find their applications in different industrial & commercial sectors. These are available in various dimensions of width, leg height, material thickness, and other parameters.</p>
+                                <p>Suraj Metal  is one of the leading manufacturers of angle, channel and flat. We offer an excellent quality stainless angle bar, alloy steel angle bar, titanium angle bar, nickel alloy angle bar. Stainless steel angle is also called stainless steel channel in the market. <br />We offer our customers a wide range of Angles & Channels widely find their applications in different industrial & commercial sectors. These are available in various dimensions of width, leg height, material thickness, and other parameters.</p>
                             </div>
                         </div>
                     </div>
@@ -56,7 +56,7 @@ function AngleChannel() {
                 <div className="tagline">
                     <div className='tagline_text'>
                         <h1 className='mb-4' data-aos='fade-down' data-aos-offset='200' data-aos-duration="1000">Every Customer are Precious for Us.</h1>
-                        <p className='mb-4' data-aos='fade-up' data-aos-offset='200' data-aos-duration="1000">Prompt Response, Excellent Quality, Quick Delivery and Customer Satisfaction really characterize Suraj Metal Corporation. We likewise, produce and represented considerable authority in Stainless Steel Round Bars, All sorts of Fittings and Flanges.</p>
+                        <p className='mb-4' data-aos='fade-up' data-aos-offset='200' data-aos-duration="1000">Prompt Response, Excellent Quality, Quick Delivery and Customer Satisfaction really characterize Suraj Metal . We likewise, produce and represented considerable authority in Stainless Steel Round Bars, All sorts of Fittings and Flanges.</p>
                         <Link to=''>INQUIRE HERE</Link>
                     </div>
                 </div>
@@ -68,7 +68,7 @@ function AngleChannel() {
                         <div className='col-md-9 col-12'>
                             <div className={`angle_channel_description ${scrolling && 'scroll'}`}>
                                 <h6>We manufacture and export premium quality stainless steel flats, angle, channel & stainless steel round bars, which find application in different industries.</h6>
-                                <p>Suraj Metal Corporation is a well-known and reputed Angle, Channel & Flat Bar manufacturer in India. Our Angle, Channel & Flat Bars are available in different materials such as Hastelloy Angle, Channel, & Flat Bar, Monel Angle, Channel, & Flat Bar, Inconel Angle, Channel, & Flat Bar, Titanium Angle, Channel, & Flat Bar, Alloy 20 Angle, Channel, & Flat Bar. Angle, Channel, & Flat Bar at Suraj Metal Corporation are manufactured according to international standards such as ASTM Standard, ASME Standard, ANSI Standard, EU Standard, DIN Standard, IS Standard, ISO Standard, and JIS Standard in India.</p>
+                                <p>Suraj Metal  is a well-known and reputed Angle, Channel & Flat Bar manufacturer in India. Our Angle, Channel & Flat Bars are available in different materials such as Hastelloy Angle, Channel, & Flat Bar, Monel Angle, Channel, & Flat Bar, Inconel Angle, Channel, & Flat Bar, Titanium Angle, Channel, & Flat Bar, Alloy 20 Angle, Channel, & Flat Bar. Angle, Channel, & Flat Bar at Suraj Metal  are manufactured according to international standards such as ASTM Standard, ASME Standard, ANSI Standard, EU Standard, DIN Standard, IS Standard, ISO Standard, and JIS Standard in India.</p>
                                 <div className="row">
                                     <div className="col-4">
                                         <div className="img">
