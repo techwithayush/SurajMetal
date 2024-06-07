@@ -49,8 +49,8 @@ function PipesTubes() {
                             <div className='banner_text'>
                                 <h6 className='text-danger mb-4'>OUR PRODUCTS</h6>
                                 <h2 className='text-primary mb-4'>SS Pipes & Tubes Manufacturer</h2>
-                                <p>Stainless Steel Pipes and Tubes Manufacturers in India. Leading suppliers dealers in Mumbai Chennai Bangalore Ludhiana Delhi Coimbatore Pune Rajkot Ahmedabad Kolkata Hyderabad Gujarat and many more places. Ritex Metal Corporation manufacturing and exporting high quality Stainless steel Pipes and Tubes worldwide. We are India's largest Stainless steel Pipes and Tubes Exporter, exporting to more than 85 countries. We are known as Stainless steel Pipes and Tubes Manufacturers and Exporters due to exporting and manufacturing on a large scale. <br />
-                                We at Ritex Metal Corporation manufacture a wide variety of Stainless steel Pipes and Tubes. There is a different types of Stainless steel Pipes and Tubes used for different needs. Our Stainless steel Pipes and Tubes are available in different sizes, grades and shapes.</p>
+                                <p>Stainless Steel Pipes and Tubes Manufacturers in India. Leading suppliers dealers in Mumbai Chennai Bangalore Ludhiana Delhi Coimbatore Pune Rajkot Ahmedabad Kolkata Hyderabad Gujarat and many more places. Suraj Metal Corporation manufacturing and exporting high quality Stainless steel Pipes and Tubes worldwide. We are India's largest Stainless steel Pipes and Tubes Exporter, exporting to more than 85 countries. We are known as Stainless steel Pipes and Tubes Manufacturers and Exporters due to exporting and manufacturing on a large scale. <br />
+                                We at Suraj Metal Corporation manufacture a wide variety of Stainless steel Pipes and Tubes. There is a different types of Stainless steel Pipes and Tubes used for different needs. Our Stainless steel Pipes and Tubes are available in different sizes, grades and shapes.</p>
                             </div>
                         </div>
                     </div>
@@ -58,7 +58,7 @@ function PipesTubes() {
                 <div className="tagline">
                     <div className='tagline_text'>
                         <h1 className='mb-4' data-aos='fade-down' data-aos-offset='200'  data-aos-duration="1000">Every Customer are Precious for Us.</h1>
-                        <p className='mb-4' data-aos='fade-up' data-aos-offset='200'  data-aos-duration="1000">Prompt Response, Excellent Quality, Quick Delivery and Customer Satisfaction really characterize Ritex Metal Corporation. We likewise, produce and represented considerable authority in Stainless Steel Round Bars, All sorts of Fittings and Flanges.</p>
+                        <p className='mb-4' data-aos='fade-up' data-aos-offset='200'  data-aos-duration="1000">Prompt Response, Excellent Quality, Quick Delivery and Customer Satisfaction really characterize Suraj Metal Corporation. We likewise, produce and represented considerable authority in Stainless Steel Round Bars, All sorts of Fittings and Flanges.</p>
                         <Link to=''>INQUIRE HERE</Link>
                     </div>
                 </div>
@@ -70,7 +70,7 @@ function PipesTubes() {
                         <div className='col-md-9 col-12'>
                             <div className={`pipes_tubes_description ${scrolling && 'scroll'}`}>
                                 <h6>Stainless Steel Seamless Pipes and Tubes is manufactured according to Indian as well as international standards such as ASME, AISI, ASTM, ANSI, DIN, BS, IS, JIS, etc.</h6>
-                                <p>Ritex Metal Corporation is one of the largest Stainless Steel Pipes and Tubes Manufacturers in India. The pipe is pressure tight circular hollow section that used in piping systems to transport gases or fluids. Tube is a circular structural member and the confusion start from here. In oil and gas industries, tubes are not just used as a structural part but also used in the heat exchanger and fired heater for a process application. We also known as Stainless Steel Pipes and Tubes Manufacturers in India.</p>
+                                <p>Suraj Metal Corporation is one of the largest Stainless Steel Pipes and Tubes Manufacturers in India. The pipe is pressure tight circular hollow section that used in piping systems to transport gases or fluids. Tube is a circular structural member and the confusion start from here. In oil and gas industries, tubes are not just used as a structural part but also used in the heat exchanger and fired heater for a process application. We also known as Stainless Steel Pipes and Tubes Manufacturers in India.</p>
                                 <div className="row">
                                     <div className="col-4">
                                         <div className="img">

@@ -48,7 +48,7 @@ function SsFasteners() {
               <div className='banner_text'>
                 <h6 className='text-danger mb-4'>OUR PRODUCTS</h6>
                 <h2 className='text-primary mb-4'>Stainless Steel Fasteners Manufacturers in India</h2>
-                <p>Ritex Metal Corporation is a leading Stainless Steel Fasteners Manufacturer in India, producing a wide range of stainless steel fasteners in various sizes, grades, and scales. We have all sizes and grades in stock. <br />
+                <p>Suraj Metal Corporation is a leading Stainless Steel Fasteners Manufacturer in India, producing a wide range of stainless steel fasteners in various sizes, grades, and scales. We have all sizes and grades in stock. <br />
                   We are able to deliver a wide range of Stainless Steel Fasteners that are used in heat exchangers, instrumentation, and other applications due to our extensive industry expertise in manufacturing, sourcing, and exporting. These are also used in aggressive environments for sensitive applications.</p>
               </div>
             </div>
@@ -57,7 +57,7 @@ function SsFasteners() {
         <div className="tagline">
           <div className='tagline_text'>
             <h1 className='mb-4' data-aos='fade-down' data-aos-offset='200'  data-aos-duration="1000">Every Customer are Precious for Us.</h1>
-            <p className='mb-4' data-aos='fade-up' data-aos-offset='200'  data-aos-duration="1000">Prompt Response, Excellent Quality, Quick Delivery and Customer Satisfaction really characterize Ritex Metal Corporation. We likewise, produce and represented considerable authority in Stainless Steel Round Bars, All sorts of Fittings and Flanges.</p>
+            <p className='mb-4' data-aos='fade-up' data-aos-offset='200'  data-aos-duration="1000">Prompt Response, Excellent Quality, Quick Delivery and Customer Satisfaction really characterize Suraj Metal Corporation. We likewise, produce and represented considerable authority in Stainless Steel Round Bars, All sorts of Fittings and Flanges.</p>
             <Link to=''>INQUIRE HERE</Link>
           </div>
         </div>

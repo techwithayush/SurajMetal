@@ -33,9 +33,9 @@ function CompanyProfile() {
                     <div className="row">
                         <div className="col-lg-6 col-12" data-aos='fade-right' data-aos-offset='200'  data-aos-duration="1000">
                             <div className='about_text'>
-                                <h6 className='text-danger mb-4'>ABOUT RITEX METAL</h6>
+                                <h6 className='text-danger mb-4'>ABOUT SURAJ METAL</h6>
                                 <h2 className='mb-4'>Company Overview</h2>
-                                <p>Since 2007, we have focused on providing Ritex Metal Corporation with goods of the highest calibre while treating our customers, employees, and the environment with respect. We work diligently to fulfil the request's needs while keeping a strict eye on the client. All Metal Industries' goods come with a stylish in-class lead time and a never-ending support squad of diligent experts. We Have Selected A Special Position For Ourselves Within The Community As Well As Among Our Guests In The Domestic As Well As International Requests By Developing Ourselves With Time.
+                                <p>Since 2007, we have focused on providing Suraj Metal Corporation with goods of the highest calibre while treating our customers, employees, and the environment with respect. We work diligently to fulfil the request's needs while keeping a strict eye on the client. All Metal Industries' goods come with a stylish in-class lead time and a never-ending support squad of diligent experts. We Have Selected A Special Position For Ourselves Within The Community As Well As Among Our Guests In The Domestic As Well As International Requests By Developing Ourselves With Time.
                                 </p>
                             </div>
                         </div>

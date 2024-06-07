@@ -3,6 +3,11 @@
     padding-top: 30px;
     margin-top: 20px;
 }
+.footer img{
+    width: 100px;
+    height: 70px;
+}
+
 .footer .footer_social_icon .fsi{
     font-size: 22px;
     margin-right: 5px;

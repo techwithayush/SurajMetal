@@ -48,7 +48,7 @@ function SheetsPlates() {
                             <div className='banner_text'>
                                 <h6 className='text-danger mb-4'>OUR PRODUCTS</h6>
                                 <h2 className='text-primary mb-4'>SS Sheets, Plates & Coils Manufacturer</h2>
-                                <p>Ritex Metal Corporation is driving Sheets Plates Coils makers in Ahmedabad India. Leading Provider of Polished Sheets & Plates, Chequered Plates, Perforated Sheets Supplier, Hot Rolled Sheet & Plates, Galvanized Sheets & Plates in India. We give a wide range of Sheets, Plates, Coils accessible in various evaluations. <br />
+                                <p>Suraj Metal Corporation is driving Sheets Plates Coils makers in Ahmedabad India. Leading Provider of Polished Sheets & Plates, Chequered Plates, Perforated Sheets Supplier, Hot Rolled Sheet & Plates, Galvanized Sheets & Plates in India. We give a wide range of Sheets, Plates, Coils accessible in various evaluations. <br />
                                     Our top-notch scope of Sheets, Plates, Coils are only intended for steel processing plants, petrochemical industry, fire insurance frameworks, substance ventures, transporting/shipment businesses, and so forth.</p>
                             </div>
                         </div>
@@ -57,7 +57,7 @@ function SheetsPlates() {
                 <div className="tagline">
                     <div className='tagline_text'>
                         <h1 className='mb-4 ' data-aos='fade-down' data-aos-offset='200'  data-aos-duration="1000">Every Customer are Precious for Us.</h1>
-                        <p className='mb-4' data-aos='fade-up' data-aos-offset='200'  data-aos-duration="1000">Prompt Response, Excellent Quality, Quick Delivery and Customer Satisfaction really characterize Ritex Metal Corporation. We likewise, produce and represented considerable authority in Stainless Steel Round Bars, All sorts of Fittings and Flanges.</p>
+                        <p className='mb-4' data-aos='fade-up' data-aos-offset='200'  data-aos-duration="1000">Prompt Response, Excellent Quality, Quick Delivery and Customer Satisfaction really characterize Suraj Metal Corporation. We likewise, produce and represented considerable authority in Stainless Steel Round Bars, All sorts of Fittings and Flanges.</p>
                         <Link to=''>INQUIRE HERE</Link>
                     </div>
                 </div>
@@ -69,7 +69,7 @@ function SheetsPlates() {
                         <div className='col-md-9 col-12'>
                             <div className={`sheets_description ${scrolling && 'scroll'}`}>
                                 <h6>STAINLESS STEEL SHEETS, SS PLATE, STAINLESS STEEL 304L COLD ROLLED PLATE, STAINLESS STEEL COILS, 304 SS HR PLATES, SS 304 SHEETS, STAINLESS STEEL 316 PLATE MANUFACTURER & STOCKIST</h6>
-                                <p>Ritex Metal Corporation is a leading Stainless Steel Sheet, Plates, and Coil Manufacturer in India. Sheets, Plates, and Coil is a tough austenitic stainless steel grade that's used in a wide range of applications. Sheets, Plates, and Coils are available in a variety of sizes to meet EN, DIN, JIS, ASTM, BS, ASME, and AISI requirements. We are a well-known Sheets, Plates, Coil Manufacturer, Supplier, Dealer, Stockholder, Importer, and Exporter in India. Sheets, Plates, and Coils are one of our most famous products. At our manufacturing facilities, we fabricate all ASME SA240 Stainless Steel Coils using the latest technology.</p>
+                                <p>Suraj Metal Corporation is a leading Stainless Steel Sheet, Plates, and Coil Manufacturer in India. Sheets, Plates, and Coil is a tough austenitic stainless steel grade that's used in a wide range of applications. Sheets, Plates, and Coils are available in a variety of sizes to meet EN, DIN, JIS, ASTM, BS, ASME, and AISI requirements. We are a well-known Sheets, Plates, Coil Manufacturer, Supplier, Dealer, Stockholder, Importer, and Exporter in India. Sheets, Plates, and Coils are one of our most famous products. At our manufacturing facilities, we fabricate all ASME SA240 Stainless Steel Coils using the latest technology.</p>
                                 <div className="row">
                                     <div className="col-4" >
                                         <div className="img">

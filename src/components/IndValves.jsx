@@ -51,7 +51,7 @@ function IndValves() {
                             <div className='banner_text'>
                                 <h6 className='text-danger mb-4' >OUR PRODUCTS</h6>
                                 <h2 className='text-primary mb-4'>Flanges Manufacturer, Supplier and Dealer in Ahmedabad, India</h2>
-                                <p>Ritex Metal Corporation is a leading Flanges Manufacturer in Ahmedabad, India. We manufacture a wide selection of Flanges, SS Flanges, and Industrial Pipe Flanges from 12″NB to 48″NB. In order to connect pipes to other piping systems like tees, elbows, reducers, valves, and other piping equipment Flanges are frequently used as connectors in piping systems.Our qualitative range of Flanges is exclusively designed for several piping applications of various industries Such as steel factories, chemical industries, petrochemical industry, fire protection systems, etc. We have types of flanges that include Socket Weld Flanges, Slip-On Flanges, Threaded Flanges, Blind Flanges, and more. Flanges are designed and developed in accordance with the IQS (International Quality Standards). We also offer customized Flanges as per the customer's requirement..</p>
+                                <p>Suraj Metal Corporation is a leading Flanges Manufacturer in Ahmedabad, India. We manufacture a wide selection of Flanges, SS Flanges, and Industrial Pipe Flanges from 12″NB to 48″NB. In order to connect pipes to other piping systems like tees, elbows, reducers, valves, and other piping equipment Flanges are frequently used as connectors in piping systems.Our qualitative range of Flanges is exclusively designed for several piping applications of various industries Such as steel factories, chemical industries, petrochemical industry, fire protection systems, etc. We have types of flanges that include Socket Weld Flanges, Slip-On Flanges, Threaded Flanges, Blind Flanges, and more. Flanges are designed and developed in accordance with the IQS (International Quality Standards). We also offer customized Flanges as per the customer's requirement..</p>
                             </div>
                         </div>
                     </div>
@@ -59,7 +59,7 @@ function IndValves() {
                 <div className="tagline">
                     <div className='tagline_text'>
                         <h1 className='mb-4' data-aos='fade-down' data-aos-offset='200'  data-aos-duration="1000">Every Customer are Precious for Us.</h1>
-                        <p className='mb-4' data-aos='fade-up' data-aos-offset='200'  data-aos-duration="1000">Prompt Response, Excellent Quality, Quick Delivery and Customer Satisfaction really characterize Ritex Metal Corporation. We likewise, produce and represented considerable authority in Stainless Steel Round Bars, All sorts of Fittings and Flanges.</p>
+                        <p className='mb-4' data-aos='fade-up' data-aos-offset='200'  data-aos-duration="1000">Prompt Response, Excellent Quality, Quick Delivery and Customer Satisfaction really characterize Suraj Metal Corporation. We likewise, produce and represented considerable authority in Stainless Steel Round Bars, All sorts of Fittings and Flanges.</p>
                         <Link to=''>INQUIRE HERE</Link>
                     </div>
                 </div>
@@ -71,7 +71,7 @@ function IndValves() {
                         <div className='col-md-9 col-12'>
                             <div className={`ind_valve_description ${scrolling && 'scroll'}`}>
                                 <h6>ANSI B16.5 Flanges Manufacturer, Stainless Steel Flanges Manufacturer, ANSI B16.5 Pipe Flanges Supplier, ANSI B16.47 Flanges Supplier, Carbon Steel IS 2062 Flanges Manufacturer, ASTM A105 Carbon Steel Flanges, CS Flanges Supplier in Ahmedabad</h6>
-                                <p>Ritex Metal Corporation is India’s best Flanges Manufacturer. We cater to the huge global demand of our clients who are spread across 5 continents and around 80 countries. Our Flanges are reputed and well known across the globe for their reliability and quality. We treat our clients as our partners by providing them with our products and services. Ritex Metal Corporation Manufactures Flanges of different shapes and sizes and with different specifications as per the customers' requirements. Flanges Manufacturer is used in various parts of India. Around worldwide Flanges Manufacturer is getting more Recognization.</p>
+                                <p>Suraj Metal Corporation is India’s best Flanges Manufacturer. We cater to the huge global demand of our clients who are spread across 5 continents and around 80 countries. Our Flanges are reputed and well known across the globe for their reliability and quality. We treat our clients as our partners by providing them with our products and services. Suraj Metal Corporation Manufactures Flanges of different shapes and sizes and with different specifications as per the customers' requirements. Flanges Manufacturer is used in various parts of India. Around worldwide Flanges Manufacturer is getting more Recognization.</p>
                                 <div className="row">
                                     <div className="col-4">
                                         <div className="img">

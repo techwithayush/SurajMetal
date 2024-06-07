@@ -48,7 +48,7 @@ function IndFlanges() {
               <div className='banner_text'>
                 <h6 className='text-danger mb-4'>OUR PRODUCTS</h6>
                 <h2 className='text-primary mb-4'>Manufacturers Of All Kinds Of Industrial Valves</h2>
-                <p>Ritex Metal Corporation a leading valve manufacturing company established 10+ years back has carved a niche in the field of manufacture of Industrial Valves. Recently it has expanded its capacity and has entered into the bigger segment with ritex brand Industrial Valves to cater in a big way to Oil & Natural Gas Industry, Petroleum & Petrochemical, Fertilizer, Chemical and Process Industry. The organization manufactures Gate, Globe, Check, Ball, Butterfly, Wafer Type Check Valve, Strainers etc. in all size and class with any material of construction as per customer requirement adhering to National and International Standards such as API 600, API 602, BS 1873, BS 1868, BS 5351, BS 5352 etc.</p>
+                <p>Suraj Metal Corporation a leading valve manufacturing company established 10+ years back has carved a niche in the field of manufacture of Industrial Valves. Recently it has expanded its capacity and has entered into the bigger segment with Suraj brand Industrial Valves to cater in a big way to Oil & Natural Gas Industry, Petroleum & Petrochemical, Fertilizer, Chemical and Process Industry. The organization manufactures Gate, Globe, Check, Ball, Butterfly, Wafer Type Check Valve, Strainers etc. in all size and class with any material of construction as per customer requirement adhering to National and International Standards such as API 600, API 602, BS 1873, BS 1868, BS 5351, BS 5352 etc.</p>
               </div>
             </div>
           </div>
@@ -56,7 +56,7 @@ function IndFlanges() {
         <div className="tagline">
           <div className='tagline_text'>
             <h1 className='mb-4' data-aos='fade-down' data-aos-offset='200' data-aos-duration="1000">Every Customer are Precious for Us.</h1>
-            <p className='mb-4' data-aos='fade-up' data-aos-offset='200' data-aos-duration="1000">Prompt Response, Excellent Quality, Quick Delivery and Customer Satisfaction really characterize Ritex Metal Corporation. We likewise, produce and represented considerable authority in Stainless Steel Round Bars, All sorts of Fittings and Flanges.</p>
+            <p className='mb-4' data-aos='fade-up' data-aos-offset='200' data-aos-duration="1000">Prompt Response, Excellent Quality, Quick Delivery and Customer Satisfaction really characterize Suraj Metal Corporation. We likewise, produce and represented considerable authority in Stainless Steel Round Bars, All sorts of Fittings and Flanges.</p>
             <Link to=''>INQUIRE HERE</Link>
           </div>
         </div>
@@ -67,7 +67,7 @@ function IndFlanges() {
             </div>
             <div className='col-md-9 col-12'>
               <div className={`ind_flange_description ${scrolling && 'scroll'}`}>
-                <h6>We at Ritex Metal Corporation are Manufacturer & Supplier of Industrial Valves, Precision Machine components, Butterfly Valves, Pulp Valves, Wafer Check Valves, Knife Gate Valves, Fabricated valves etc.</h6>
+                <h6>We at Suraj Metal Corporation are Manufacturer & Supplier of Industrial Valves, Precision Machine components, Butterfly Valves, Pulp Valves, Wafer Check Valves, Knife Gate Valves, Fabricated valves etc.</h6>
                 <p>We are focused on accomplishing complete consumer loyalty through Design, Development, Manufacturing, and supply of reliable quality Industrial Valves with the point of zero rate dismissal while remaining financially savvy and serious. This will be accomplished by collaboration and ceaseless improvement in all the regions of activity. We also provide services like Valve Reconditioning, Valves Repairing Services, repair and servicing of all types of machinery and Agriculture goods</p>
                 <div className="row">
                   <div className="col-4">

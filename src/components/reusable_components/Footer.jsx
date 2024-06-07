@@ -5,6 +5,7 @@ import {Link} from 'react-router-dom'
 import { IoHome } from "react-icons/io5";
 import { MdAddCall } from "react-icons/md";
 import { IoIosMail } from "react-icons/io";
+import SM from '/images/SM.png'
 
 function Footer() {
     return (
@@ -13,7 +14,7 @@ function Footer() {
                 <div className='footer container-xl'>
                     <div className="row">
                         <div className="col-lg-4 col-sm-6 col-12">
-                            <img src="" alt="Image Not Found" />
+                            <img src={SM} alt="Image Not Found" />
                             <p className='text-justify'>Our Products Are Highly Demanded In The Market By Various Industries. Modern Accessories Manufacture Our Products, And The Materials Used By Our Team Are Qualitative.</p>
                             <div className='footer_social_icon'>
                                 <FaFacebookSquare className='fsi' />
@@ -74,7 +75,7 @@ function Footer() {
                 </div>
                 <hr />
                 <div className='footer_second container-xl'>
-                    <p>Copyright © {new Date().getFullYear()}, All rights reserved. Powered by Ritex Metal Corporation.</p>
+                    <p>Copyright © {new Date().getFullYear()}, All rights reserved. Powered by Suraj Metal Corporation.</p>
                     <p>Design & Developed by <Link to='https://www.linkedin.com/in/ayush-namdhar-8ba009216/' target='_blank' className='text-danger'>Ayush Namdhar</Link> </p>
                 </div>
             </div>

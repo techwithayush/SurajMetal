@@ -5,6 +5,7 @@ import { FaFacebook, FaPhone, FaInstagram, FaLinkedin, FaTwitter } from "react-i
 import { FaLocationDot } from "react-icons/fa6";
 import { BiSolidDownArrow } from "react-icons/bi";
 import { Link } from 'react-router-dom';
+import SM from '/images/SM.png'
 
 function Header() {
 
@@ -20,7 +21,7 @@ function Header() {
                     <span className='me-2'>|</span>
                     <div>
                         <FaLocationDot />
-                        <a>vastral,Ahmedabad</a>
+                        <a>Rakhiyal,Ahmedabad</a>
                     </div>
                 </div>
                 <div className='social_media_icons'>
@@ -33,7 +34,9 @@ function Header() {
             <div className='header_two '>
                 <nav className="navbar container-xl navbar-expand-lg">
                     <div className="container-fluid">
-                        <Link className="navbar-brand" to="/">Navbar</Link>
+                        <Link className="navbar-brand" to="/">
+                            <img src={SM} alt="Image Not Found!" />
+                        </Link>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
                         </button>
@@ -64,9 +67,6 @@ function Header() {
                                         <Link to="/dairy-valves">DAIRY VALVES</Link>
                                         <Link to="/angle-channel">IANGLE, CHANNEL & FLATS</Link>
                                         <Link to="/bars-wires-rods">BARS, WIRES & RODS</Link>
-                                        <a href="#">SS CIRCLES, PATTI & PATTA</a>
-                                        <a href="#">PVD DECORATIVE SHEETS</a>
-                                        <a href="#">SS HANDRAIL PIPES</a>
                                     </div>
                                 </li>
                                 <li className="nav-item">
@@ -81,7 +81,7 @@ function Header() {
                             </ul>
                             <div className='need_help'>
                                 <FaPhone className='me-3' style={{ fontSize: '30px' }} />
-                                <a href="tel:+91 6352617503"> Need Help?<br />8200172854</a>
+                                <a href="tel:+91 95744 45869"> Need Help?<br />95744 45869</a>
                             </div>
                         </div>
                     </div>
