@@ -589,7 +589,7 @@ function HomaPage() {
                             </div>
                         </div>
                         <div className="col-md-6 col-12 mt-3 mt-md-0" data-aos='fade-left' data-aos-offset='200' data-aos-duration="1000">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14690.850507577583!2d72.65323785044829!3d22.99759261705727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e87cf76479217%3A0xbe50540453c71a8c!2sVastral%2C%20Ahmedabad%2C%20Gujarat%20380038!5e0!3m2!1sen!2sin!4v1714127555321!5m2!1sen!2sin" width="100%" height="500" style={{ border: 0, }} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7344.503138225513!2d72.61950109357909!3d23.014533600000007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e879549e64beb%3A0xdf77b742dc99b87!2sSuraj%20Metal!5e0!3m2!1sen!2sin!4v1717757433477!5m2!1sen!2sin" width="100%" height="500" style={{ border: 0, }} loading="lazy"referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
                 </section>
